@@ -5,7 +5,7 @@
 
 Git là một hệ thống quản lý phiên bản phân tán (Distributed Version Control System – DVCS), nó là một trong những hệ thống quản lý phiên bản phân tán phổ biến nhất hiện nay. Git cung cấp cho mỗi lập trình viên kho lưu trữ (repository) riêng chứa toàn bộ lịch sử thay đổi.
 
-1. **Version Control System – VCS là gì?**
+2. **Version Control System – VCS là gì?**
 
 VCS là viết tắt của Version Control System là hệ thống kiểm soát các phiên bản phân tán mã nguồn mở. Các VCS sẽ lưu trữ tất cả các file trong toàn bộ dự án và ghi lại toàn bộ lịch sử thay đổi của file. Mỗi sự thay đổi được lưu lại sẽ được và thành một version (phiên bản).
 
@@ -13,7 +13,7 @@ VCS giúp bạn có thể lưu trữ nhiều phiên bản khác nhau của một
 
 Mỗi phiên bản bao gồm: nội dung file bị thay đổi, ngày giờ sửa đổi, người thay đổi là ai, lý do thay đổi hay tên phiên bản, …
 
-1. **Các thuật ngữ Git quan trọng**
+3. **Các thuật ngữ Git quan trọng**
 
 **3.1 Branch**
 
@@ -24,7 +24,7 @@ Mỗi phiên bản bao gồm: nội dung file bị thay đổi, ngày giờ sử
 
 Một commit đại diện cho một thời điểm cụ thể trong lịch sử dự án của bạn. Sử dụng lệnh commit kết hợp với lệnh git add để cho git biết những thay đổi bạn muốn lưu vào local repository.
 
-  1. **Head**
+**3.3 Head**
 
 Các commit ở đầu của một branch được gọi là head. Nó đại diện cho commit mới nhất của repository mà bạn hiện đang làm việc.
 
@@ -51,7 +51,7 @@ Kho lưu trữ Git chứa tất cả các tệp dự án của bạn bao gồm c
 
 Tags cung cấp cho bạn một cách để theo dõi các commit quan trọng. Các tags nhẹ chỉ đơn giản đóng vai trò là con trỏ trong khi các tags chú thích được lưu trữ dưới dạng các đối tượng đầy đủ.
 
-1. **Các lệnh cơ bản trong git**
+4. **Các lệnh cơ bản trong git**
 
 **4.1. git config**
 
@@ -93,7 +93,7 @@ Tác dụng: Push hoặc Pull các thay đổi đến remote. Nếu bạn đã a
 
 Câu lệnh: _git pull \<:remote:\> \<:branch:\>_ và _git push \<:remote:\> \<:branch:\>_
 
-1. **Quy trình làm việc git cơ bản**
+5. **Quy trình làm việc git cơ bản**
 
 - git init – Tạo 1 repository
 - git status - Đảm bảo răng local của bạn đang sạch sẽ.
@@ -104,7 +104,7 @@ Câu lệnh: _git pull \<:remote:\> \<:branch:\>_ và _git push \<:remote:\> \<:
 - git committ -m "message" - Thực hiện commit của bạn.
 - git push origin - đẩy thay đổi của bạn lên remote.
 
-1. **GitHub**
+6. **GitHub**
 
 GitHub là một dịch vụ nổi tiếng cung cấp kho lưu trữ mã nguồn Git cho các dự án phần mềm. Github có đầy đủ những tính năng của Git, ngoài ra nó còn bổ sung những tính năng về social để các developer tương tác với nhau.
 
